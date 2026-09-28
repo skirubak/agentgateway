@@ -37,8 +37,14 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 cfg.yaml
+config.yaml
 
 .augment/settings.local.json
+
+# Local runtime artifacts
+logs.db-shm
+logs.db-wal
+.fuse_hidden*
 
 # Beads / Dolt files (added by bd init)
 .dolt/
